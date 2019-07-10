@@ -1,3 +1,18 @@
 body {
     background-image: url(../images/ovo-background.jpg);
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#game {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#timer {
+    font-weight: bold;
 }
