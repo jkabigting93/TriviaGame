@@ -51,6 +51,20 @@ $(document).ready(function() {
         input[9] = $("input[name='q10']:checked").val();
         console.log(input);
 
-    });
+    // Submission Function - Compare Arrays
+        var correct = 0;
+        var incorrect = 0;
+
+        for (var j = 0; j < answers.length; j++) { 
+            if (answers[j] === input[j]) {
+                correct++
+            } else {
+                incorrect++
+            };
+        };
+        console.log(correct);
+        console.log(incorrect);
     
+    });
+
 });
