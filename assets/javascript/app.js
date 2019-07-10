@@ -7,5 +7,7 @@ $(document).ready(function() {
     // Display Game Body and hide Start Button
         $("#startButton").css("display", "none");
         $("#game").css("display", "block");
-    })
+    });
+
+    // Define Submission Function
 })
