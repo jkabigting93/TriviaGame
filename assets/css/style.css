@@ -12,6 +12,7 @@ body {
 h1 {
     font-size: 60px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 #game {
@@ -20,9 +21,14 @@ h1 {
 }
 
 #timer {
+    font-size: 30px;
     font-weight: bold;
 }
 
 .question {
-    padding: 30px;
+    padding: 15px;
+}
+
+.questionText {
+    padding: 15px;
 }
