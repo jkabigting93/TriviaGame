@@ -1,6 +1,12 @@
 body {
-    background-image: url(../images/ovo-background.jpg);
+    background-image: url(../images/drake_dancing.png);
     font-family: 'Lora', serif;
+}
+
+#wrapper {
+    background-color: gold;
+    margin: 60px 200px 40px 200px;
+    padding: 30px 40px 30px 40px;
 }
 
 h1 {
@@ -15,4 +21,8 @@ h1 {
 
 #timer {
     font-weight: bold;
+}
+
+.question {
+    padding: 30px;
 }
