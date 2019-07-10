@@ -4,5 +4,8 @@ $(document).ready(function() {
     $("#startButton").click(function() {
         console.log("click works");
 
-    // Write game code to game area
-        // $("#game").html();
+    // Display Game Body and hide Start Button
+        $("#startButton").css("display", "none");
+        $("#game").css("display", "block");
+    })
+})
