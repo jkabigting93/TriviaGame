@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-    // On-click listener for Start Button
+// On-click listener for Start Button
     $("#startButton").click(function() {
         console.log("start click works");
 
-    // Display Game Body and hide Start Button
+     // Display Game Body and hide Start Button
         $("#startButton").css("display", "none");
         $("#game").css("display", "block");
 
@@ -16,7 +16,7 @@ $(document).ready(function() {
         }, 1000);
     });
 
-    // On-click listener for Submission Button
+// On-click listener for Submission Button
     $("#submitButton").click(function() {
         console.log("submit click works");
 
@@ -24,12 +24,21 @@ $(document).ready(function() {
         $("#game").css("display", "none");
         $("#scoreScreen").css("display", "block");
 
-    // Call Submission Function
+    // Submission Function - Define Answers as Array
+        var numQuestions = 10;
+        var numChoices = 4;
+        var answers = new Array(10);
 
-    })
+        answers[0] = "Toronto";
+        answers[1] = "OVO";
+        answers[2] = "bling";
+        answers[3] = "Whiskey";
+        answers[4] = "Pusha T";
+        answers[5] = "Degrassi";
+        answers[6] = "God's Plan";
+        answers[7] = "blem";
+        answers[8] = "Fred Van Vleet";
+        answers[9] = "Anchorman 2";
 
-    // Define Submission Function
-    // function submit() {
-    //     if
-    // }
-})
+    });
+});
