@@ -16,7 +16,8 @@ h1 {
     margin-bottom: 20px;
 }
 
-#startButton {
+#startButton,
+#submitButton {
     width: 300px;
     height: 75px;
     top: 50%;
